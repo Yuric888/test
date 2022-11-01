@@ -1,7 +1,14 @@
 import './Logo.css'
 const Logo = () => {
   return (
-    <div>Logo</div>
+   <div className="logo">
+        <span>G</span>
+        <span>o</span>
+        <span>o</span>
+        <span>g</span>
+        <span>l</span>
+        <span>e</span>
+   </div>
   )
 }
 
