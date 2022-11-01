@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import { useState } from 'react';
+import { toast, ToastContainer } from 'react-toastify';
 import './App.css';
+import 'react-toastify/dist/ReactToastify.css';
+import axios from 'axios';
+import Logo from './component/Logo/Logo';
+import Search from './component/Search/Search';
+import ListIcon from './component/ListIcon/ListIcon';
+
 
 function App() {
+ 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Logo />
+      <Search />
+      <ListIcon />
     </div>
   );
 }

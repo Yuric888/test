@@ -1,0 +1,156 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+  .form-login{
+    width: 500px;
+    margin: 50px auto;
+    background-color: #28292d;
+    border-radius: 10px;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    overflow-y: scroll;
+}
+ .form-login::-webkit-scrollbar {
+    display: none;
+}
+
+ .form-login h2 {
+    color: #45f3ff;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 3px;
+    margin: 0;
+}
+ .form-group{
+    position: relative;
+    width: 100%;
+}
+ .form-group input{
+    position: relative;
+    width: 100%;
+    padding:10px;
+    background-color: transparent !important;
+    border: none !important;
+    outline: none !important;
+    color: #23242a !important;
+    font-size: 18px;
+    letter-spacing: 1px;
+    z-index: 10;
+    border-radius: 4px;
+    height: 24px;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 30px #45f3ff inset !important;
+}
+ .form-group span {
+    position: absolute;
+    left: 0;
+    top: -4px;
+    padding: 20px 10px 10px;
+    font-size: 18px;
+    color: #8f8f8f;
+    pointer-events: none;
+    letter-spacing: 1px;
+    transition: .3s;
+
+}
+ .form-group input:valid ~ span,
+ .form-group input:focus ~ span {
+    color: #45f3ff;
+    transform: translateX(-10px) translateY(-40px);
+    font-size: 16px;
+}
+ .form-group i{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height:2px;
+    background-color: #45f3ff;
+    border-radius: 4px;
+    transition: .3s;
+    pointer-events: none;
+    z-index: 9;
+}
+ .form-group input:valid ~ i,
+ .form-group input:focus ~ i{
+    height:44px;
+}
+ .links{
+    display: flex;
+    justify-content: flex-end;
+}
+ .links span {
+    margin: 20px 0;
+    font-size: 18px;
+    color: #45f3ff;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0;
+}
+ .links span:hover{
+    text-shadow: 0 0 5px;
+}
+ .show-password{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    z-index: 20;
+}
+
+ input[type="submit"]{
+    border: none;
+    outline: none;
+    background-color: rgba(69, 243, 255,1);
+    padding: 15px 25px;
+    width: 150px;
+    height: 50px;
+    border-radius: 4px;
+    margin: 0 auto 0;
+    font-weight: 600;
+    cursor: pointer;
+}
+ input[type="submit"]:hover{
+     background-color: rgba(69, 243, 255,.6);
+    color: #eac651;
+    }
+@media (min-width: 540px) and (max-width: 767px) {
+    
+}
+@media (min-width: 768px) and (max-width: 1039px) {
+   
+}
+@media (min-width: 1040px){
+   
+}
