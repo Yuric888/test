@@ -9,7 +9,6 @@ function App() {
 const [name, setName] = useState('')
  const hanedleChane = (data) => {
   setName(data)
-  console.log('data', data)
  }
   return (
     <div className="App">
