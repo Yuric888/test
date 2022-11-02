@@ -1,0 +1,26 @@
+.App {
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color:white;
+    
+    &__container{
+        text-align: center;
+        margin: 0 auto;
+        padding: 0 16px;
+        @media screen and (min-width: 540px) {
+                max-width: 540px;
+            }
+        @media screen and (min-width: 720px) {
+                max-width: 720px;
+                padding-right: 0;
+                padding-left: 0;
+            }
+        @media screen and (min-width: 960px) {
+                max-width: 960px;
+            }
+        @media screen and (min-width: 1140px) {
+                max-width: 1140px;
+            }
+                }
+            
+}

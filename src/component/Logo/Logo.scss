@@ -1,0 +1,29 @@
+.logo{
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+    pointer-events: none;
+    span {
+    pointer-events: none;
+    font-size:100px;
+        &:first-of-type{
+            color: #5383ec;
+            }
+        &:nth-child(2){
+            color: #d85140;
+            }
+        &:nth-child(3){
+            color: #f1bf42;
+        }
+        &:nth-child(4){
+            color: #5383ec;
+        }
+        &:nth-child(5){
+            color: #58a65c;
+        }
+        &:last-of-type{
+            color: #d85140;
+        }
+    }
+}
+

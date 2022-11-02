@@ -1,6 +1,32 @@
 .App {
-  width: 100vw;
-  height: 100vh;
-  background-color:white;
-  text-align: center;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: white;
 }
+.App__container {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+@media screen and (min-width: 540px) {
+  .App__container {
+    max-width: 540px;
+  }
+}
+@media screen and (min-width: 720px) {
+  .App__container {
+    max-width: 720px;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+@media screen and (min-width: 960px) {
+  .App__container {
+    max-width: 960px;
+  }
+}
+@media screen and (min-width: 1140px) {
+  .App__container {
+    max-width: 1140px;
+  }
+}/*# sourceMappingURL=App.css.map */

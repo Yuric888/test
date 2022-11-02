@@ -1,24 +1,28 @@
-.logo{
-    padding: 50px;
+.logo {
+  width: 100%;
+  padding: 50px;
+  text-align: center;
+  pointer-events: none;
 }
-.logo span{
-    font-size:200px;
+.logo span {
+  pointer-events: none;
+  font-size: 100px;
 }
-.logo span:first-child{
-    color: #5383ec;
+.logo span:first-of-type {
+  color: #5383ec;
 }
-.logo span:nth-child(2){
-    color: #d85140;
+.logo span:nth-child(2) {
+  color: #d85140;
 }
-.logo span:nth-child(3){
-    color: #f1bf42;
+.logo span:nth-child(3) {
+  color: #f1bf42;
 }
-.logo span:nth-child(4){
-    color: #5383ec;
+.logo span:nth-child(4) {
+  color: #5383ec;
 }
-.logo span:nth-child(5){
-    color: #58a65c;
+.logo span:nth-child(5) {
+  color: #58a65c;
 }
-.logo span:nth-child(6){
-    color: #d85140;
-}
+.logo span:last-of-type {
+  color: #d85140;
+}/*# sourceMappingURL=Logo.css.map */

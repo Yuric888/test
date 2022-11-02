@@ -1,26 +1,49 @@
-.search{
-    position: relative;
+.search {
+  width: 80%;
+  height: 50px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 60px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
-.search input{
-    position: relative;
-    border:none;
-    outline: none;
-    padding: 20px 40px;
-    border-radius: 20px;
-    width: 30vw;
-    box-shadow: 5px 0 5px rgba(0,0,0,0.2), -5px 0 5px rgba(0,0,0,0.2);
-    font-size: 18px;
-    font-weight: 500;
-    color: black;
+.search input {
+  border: none;
+  outline: none;
+  padding: 0 20px;
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  flex: 1;
 }
-.search .icon-search{
-    position: absolute;
-    left: 32%;
-    top: 30%;
+.search input ::-moz-placeholder {
+  font-size: 18px;
+  color: black;
+  font-weight: 500;
 }
-.search .icon-micro{
-    position: absolute;
-    left: 65%;
-    top: 30%;
-
+.search input :-ms-input-placeholder {
+  font-size: 18px;
+  color: black;
+  font-weight: 500;
 }
+.search input ::placeholder {
+  font-size: 18px;
+  color: black;
+  font-weight: 500;
+}
+.search .icon-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 100%;
+  cursor: pointer;
+}
+.search .icon-micro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 100%;
+  cursor: pointer;
+}/*# sourceMappingURL=Search.css.map */

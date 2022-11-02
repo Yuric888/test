@@ -1,0 +1,42 @@
+.list-icon{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 150px);
+    .card-item{
+        width: 80%;
+        height: 80%;
+        padding: 10px 0;
+        margin: 0 auto;
+        .card-background{
+            width: 50%;
+            height: 55%;
+            padding: 10px;
+            background-color: #ccc;
+            margin: 0 auto;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        .card-img{
+            position: relative;
+            width: 80%;
+            height: 80%;
+            overflow: hidden;
+            margin: 0 auto;
+
+            img{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                inset: 0;
+                object-fit: contain;
+            }
+        }
+        }
+        p{
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+}
